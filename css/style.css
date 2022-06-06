@@ -139,7 +139,7 @@ background-color: #2F303A;
 padding-top: 280px;*/
 }
 .hero .container {
-    display: flex;
+    /*display: flex;*/
 }
 .hero-title {
 font-weight: 900;
