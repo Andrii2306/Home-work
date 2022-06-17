@@ -117,13 +117,9 @@ color: var(--accetnt-color);
 .header-connect {
     margin-left: auto;
 }
-.heder-connect-icon {
-    display: block;
-    margin-right: 10px;
-}
-.header-icon {
+.contact-ikon {
     fill: #757575;
-
+margin-right: 10px;
 }
 .header-mail {
     font-weight: 500;
@@ -147,7 +143,15 @@ margin-left: 50px;
 }
 .header-tel:hover,
 .header-tel:focus {
-    color: #2196F3;;
+    color: #2196F3;
+}
+.header-mail:hover .contact-ikon,
+.header-mail:focus .contact-ikon {
+    fill: #2196F3;
+}
+.header-tel:hover .contact-ikon,
+.header-tel:focus .contact-ikon {
+    fill: #2196F3;
 }
 
 /*-----hero-----*/
@@ -373,7 +377,7 @@ border-radius: 50%;
     display: flex;
 }
 .client-item {
-    max-width: 170px;
+    width: 170px;
     height: 92px;  
     margin-left: var(--tiypical-margin);
 }
