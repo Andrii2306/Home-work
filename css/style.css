@@ -108,9 +108,11 @@ padding-bottom: 25px;
 }
 .header-link:hover {
 color: var(--accetnt-color);
+transition: color 250ms;
 }
 .header-link:focus {
     color: var(--accetnt-color);
+    transition: color 250ms;
     }
     .header-item {
         position: relative;
@@ -154,19 +156,23 @@ margin-left: 50px;
 }
 .header-mail:hover,
 .header-mail:focus {
-    color: #2196F3;;
+    color: #2196F3;
+    transition: color 250ms;
 }
 .header-tel:hover,
 .header-tel:focus {
     color: #2196F3;
+    transition: color 250ms;
 }
 .header-mail:hover .contact-ikon,
 .header-mail:focus .contact-ikon {
     fill: #2196F3;
+    transition: fill 250ms;
 }
 .header-tel:hover .contact-ikon,
 .header-tel:focus .contact-ikon {
     fill: #2196F3;
+    transition: fill 250ms;
 }
 
 /*-----hero-----*/
@@ -389,6 +395,7 @@ border-radius: 50%;
 .comand-soc-link:hover,
 .comand-soc-link:focus {
     background-color: #2196F3;
+    transition: background-color 250ms ;
 }
 .comand-soc-link:hover .comand-soc-icon,
 .comand-soc-link:focus .comand-soc-icon {
@@ -437,10 +444,12 @@ border-radius: 4px;
 .client-linc:hover, 
 .client-linc:focus {
     border: 1px solid #2196F3;
+    transition: borde 250ms ;
 }
 .client-linc:hover .client-icon,
 .client-linc:focus .client-icon {
     fill: #2196F3;
+    transition: fill 250ms;
 }
 /*-----footer-----*/
 .footer-wrap .container {
@@ -548,6 +557,7 @@ margin-bottom: 20px;
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #2196F3;
+    transition: background-color 250ms ;
 }
 
 /*-----modal-----*/
@@ -661,8 +671,8 @@ margin-bottom: 20px;
 .btn-filter:hover,
 .btn-filter:focus {
     background: #2196F3;
-/* shadow-middle */
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+transition: background 2500ms;, box-shadow: 2500ms;
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -696,6 +706,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
 .portfolio-project-item:focus,
 .portfolio-project-item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+transition: box-shadow 250ms;
 }
 .portfolio-project-title {
 font-weight: 700;
