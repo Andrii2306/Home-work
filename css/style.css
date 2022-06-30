@@ -604,6 +604,7 @@ margin-bottom: 20px;
 border-radius: 4px;
 background-color: transparent;
 padding-left: 16px;
+color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-mail::placeholder {
