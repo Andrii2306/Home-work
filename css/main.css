@@ -6,7 +6,7 @@
   --tiypical-margin: 30px;
 }
 
-body {
+.body {
   font-family: var(--main-font);
 }
 
@@ -16,6 +16,15 @@ body {
 
 .list {
   list-style: none;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 p,
@@ -261,14 +270,14 @@ button {
   margin-left: -30px;
 }
 
-.about-item {
+.about-list__item {
   margin-left: var(--tiypical-margin);
   width: 270px;
   box-sizing: border-box;
   width: 100%;
 }
 
-.about-list-title {
+.about-list__title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -278,7 +287,7 @@ button {
   color: #212121;
 }
 
-.about-list-text {
+.about-list__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -286,7 +295,7 @@ button {
   color: #757575;
 }
 
-.about-link-link {
+.about-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -458,13 +467,7 @@ button {
   padding-bottom: 94px;
 }
 
-.client-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+.client__title {
   margin-bottom: 50px;
 }
 
@@ -472,17 +475,17 @@ button {
   display: flex;
 }
 
-.client-item {
+.client-list__item {
   width: 170px;
   height: 92px;
   margin-left: var(--tiypical-margin);
 }
 
-.client-item:first-child {
+.client-list__item:first-child {
   margin-left: 0;
 }
 
-.client-linc {
+.client-list__linc {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -492,20 +495,16 @@ button {
   border-radius: 4px;
   transition: border 250ms;
 }
-
-.client-icon {
-  fill: #AFB1B8;
-  transition: fill 250ms;
-}
-
-.client-linc:hover,
-.client-linc:focus {
+.client-list__linc:hover, .client-list__linc:focus {
   border: 1px solid #2196F3;
 }
-
-.client-linc:hover .client-icon,
-.client-linc:focus .client-icon {
+.client-list__linc:hover .client-list__icon, .client-list__linc:focus .client-list__icon {
   fill: #2196F3;
+}
+
+.client-list__icon {
+  fill: #AFB1B8;
+  transition: fill 250ms;
 }
 
 /*-----footer-----*/

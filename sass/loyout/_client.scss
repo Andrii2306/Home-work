@@ -1,30 +1,28 @@
 /*-----client-----*/
 
+.h2-title {
+
+}
 .client {
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
-.client-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.client__title {
     margin-bottom: 50px;
 }
 .client-list {
     display: flex;
 }
-.client-item {
+.client-list__item {
     width: 170px;
     height: 92px;  
     margin-left: var(--tiypical-margin);
 }
-.client-item:first-child {
+.client-list__item:first-child {
     margin-left: 0;
 }
-.client-linc {
+.client-list__linc {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,16 +31,16 @@ height: 100%;
 border: 1px solid #AFB1B8;
 border-radius: 4px;
 transition: border 250ms ;
+&:hover, 
+&:focus {
+    border: 1px solid #2196F3;
+};
+&:hover .client-list__icon,
+&:focus .client-list__icon {
+    fill: #2196F3;
 }
-.client-icon {
+}
+.client-list__icon {
     fill: #AFB1B8;
     transition: fill 250ms;
-}
-.client-linc:hover, 
-.client-linc:focus {
-    border: 1px solid #2196F3;
-}
-.client-linc:hover .client-icon,
-.client-linc:focus .client-icon {
-    fill: #2196F3;
 }
