@@ -72,15 +72,16 @@ width: 100%;
 height: 100%;
 border-radius: 50%;
 transition: background-color 250ms ;
+&:hover,
+&:focus {
+    background-color: #2196F3;
+}
+&:hover .comand-soc-icon,
+&:focus .comand-soc-icon {
+    fill: #FFFFFF;
+}
+
 }
 .comand-soc-icon {
     fill: #AFB1B8;
-}
-.comand-soc-link:hover,
-.comand-soc-link:focus {
-    background-color: #2196F3;
-}
-.comand-soc-link:hover .comand-soc-icon,
-.comand-soc-link:focus .comand-soc-icon {
-    fill: #FFFFFF;
 }

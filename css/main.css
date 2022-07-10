@@ -6,8 +6,8 @@
   --tiypical-margin: 30px;
 }
 
-.body {
-  font-family: var(--main-font);
+body {
+  font-family: Roboto;
 }
 
 .link {
@@ -143,11 +143,9 @@ button {
   padding-bottom: 25px;
   transition: color 250ms;
 }
-
 .header-link:hover {
   color: var(--accetnt-color);
 }
-
 .header-link:focus {
   color: var(--accetnt-color);
 }
@@ -169,7 +167,7 @@ button {
   height: 4px;
   border-radius: 4px;
   background-color: #2196F3;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
 }
 
 .header-connect {
@@ -190,6 +188,12 @@ button {
   color: #757575;
   transition: color 250ms;
 }
+.header-mail:hover, .header-mail:focus {
+  color: #2196F3;
+}
+.header-mail:hover .contact-ikon, .header-mail:focus .contact-ikon {
+  fill: #2196F3;
+}
 
 .header-tel {
   font-weight: 500;
@@ -200,24 +204,10 @@ button {
   margin-left: 50px;
   transition: color 250ms;
 }
-
-.header-mail:hover,
-.header-mail:focus {
+.header-tel:hover, .header-tel:focus {
   color: #2196F3;
 }
-
-.header-tel:hover,
-.header-tel:focus {
-  color: #2196F3;
-}
-
-.header-mail:hover .contact-ikon,
-.header-mail:focus .contact-ikon {
-  fill: #2196F3;
-}
-
-.header-tel:hover .contact-ikon,
-.header-tel:focus .contact-ikon {
+.header-tel:hover .contact-ikon, .header-tel:focus .contact-ikon {
   fill: #2196F3;
 }
 

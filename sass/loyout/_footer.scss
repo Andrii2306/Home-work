@@ -19,6 +19,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
+
 .footer-logo span {
 font-family: 'Raleway';
 font-style: normal;
@@ -28,6 +29,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+
 .footer-addres {
 font-weight: 400;
 font-size: 14px;
@@ -37,9 +39,11 @@ color: #FFFFFF;
 margin-top: 20px;
 margin-bottom: 9px;
 }
+
 .footer-list-li:not(:last-child) {
     margin-bottom: 9px;
 }
+
 .footer-post {
 font-style: normal;
 font-weight: 400;
@@ -92,14 +96,15 @@ margin-bottom: 20px;
     height: 100%;
     border-radius: 50%;
     transition: background-color 250ms;
+    &:hover,
+    &:focus {
+    background-color: #2196F3;
+}
 }
 .footer-soc-icon {
     fill: #FFFFFF;
 }
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-    background-color: #2196F3;
-}
+
 .footer-input-mail {
     display: flex;
 }
