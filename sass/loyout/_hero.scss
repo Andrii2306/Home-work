@@ -1,41 +1,69 @@
 /*-----hero-----*/
 
 .hero {
-background-color: #C4C4C4;
-background-image: linear-gradient(rgba(47, 48, 58, 0.4), 
-rgba(47, 48, 58, 0.4)), 
-url(../images/hero-bg.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-padding-top: 200px;
-padding-bottom: 200px;
+  background-color: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg_mob.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  display: flex;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-bg_tab.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/hero-bg.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--header-color);
-max-width: 696px;
-margin: 0 auto;
-justify-content: center;
-margin-bottom: var(--tiypical-margin);
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-color);
+  max-width: 360px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: var(--tiypical-margin);
 
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
 .hero-btn {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-display: block;
-justify-content: center;
-margin: 0 auto;
-border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
 }

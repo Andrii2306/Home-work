@@ -35,6 +35,47 @@
         </svg>
         +38 096 111 11 11</a>
 </div>
+<div class="mob-menu-open">
+        <button type="button" class="menu-open-btn">
+        <svg class="menu-open-icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-menu_40px">
+            </use>
+        </svg>
+        </button>
+    </div>
+<div class="mob-menu is-hidden">
+    <div class="container">
+    <div class="mob-menu-close">
+        <button type="button" class="menu-close-btn">
+        <svg class="menu-close-icon" width="19" height="19">
+            <use href="./images/icons.svg#icon-Vector-2">
+            </use>
+        </svg>
+        </button>
+    </div>
+    <ul class="mob-menu-list list">
+        <li class="mob-menu-item"><a href="" class="mob-menu-link current link">Студия</a></li>
+        <li class="mob-menu-item"><a href="./portfolio.html" class="mob-menu-link link">Портфолио</a></li>
+        <li class="mob-menu-item"><a href="#contacts" class="mob-menu-link link">Контакты</a></li>
+    </ul>
+        <ul class="mob-menu-connect list">
+            <li class="connect-item">
+    <a href="tel:+380961111111" class="mob-menu-tel link">
+        +38 096 111 11 11</a></li>
+            <li class="connect-item">
+    <a href="mailto:info@devstudio.com" class="mob-menu-mail link">
+        info@devstudio.com</a></li>
+        </ul>
+        <div class="mob-menu-soc">
+            <ul class="mob-soc-list list">
+                <li class="mob-soc-item"><a href="" class="mob-soc-link link">Instagram</a><span></span></li>
+                <li class="mob-soc-item"><a href="" class="mob-soc-link link">Twitter</a><span></span></li>
+                <li class="mob-soc-item"><a href="" class="mob-soc-link link">Facebook</a><span></span></li>
+                <li class="mob-soc-item"><a href="" class="mob-soc-link link">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
 </header>
 <main>
 <section class="hero">
@@ -115,7 +156,28 @@
     <h2 class="comand-title">Наша команда</h2>
     <ul class="comand-list list">
         <li class="comand-item">
-            <img src="./images/comand1.jpg" alt="наша команда" width="270" height="260">
+            <picture>
+                <source
+                srcset="
+                ./images/comand_1.jpg 1x,
+                ./images/comand_1_2x.jpg 2x"
+                media="(min-width: 1200px)"
+                >
+                <source
+                srcset="
+                ./images/comand_1_tab.jpg 1x,
+                ./images/comand_1_2x_tab.jpg 2x"
+                media="(min-width: 768px)"
+                >
+                <source
+                srcset="
+                ./images/comand_1_mob.jpg 1x,
+                ./images/comand_1_2x_mob.jpg 2x"
+                media="(min-width: 320px)"
+                >
+                <img src="./images/comand_1_mob.jpg" 
+            alt="наша команда" width="450">
+        </picture>
             <div class="comand-text">
             <h3 class="comand-list-title">Игорь Демьяненко</h3>
             <p lang="en" class="comand-list-text">Product Designer</p>
@@ -148,7 +210,28 @@
         </div>
         </li>
         <li class="comand-item">
-            <img src="./images/comand2.jpg" alt="наша команда" width="270" height="260">
+            <picture>
+                <source
+                srcset="
+                ./images/comand_2.jpg 1x,
+                ./images/comand_2_2x.jpg 2x"
+                media="(min-width: 1200px)"
+                >
+                <source
+                srcset="
+                ./images/comand_2_tab.jpg 1x,
+                ./images/comand_2_2x_tab.jpg 2x"
+                media="(min-width: 768px)"
+                >
+                <source
+                srcset="
+                ./images/comand_2_mob.jpg 1x,
+                ./images/comand_2_2x_mob.jpg 2x"
+                media="(min-width: 320px)"
+                >
+                <img src="./images/comand_2_mob.jpg" 
+            alt="наша команда" width="450">
+        </picture>
             <div class="comand-text">
             <h3 class="comand-list-title">Ольга Репина</h3>
             <p lang="en" class="comand-list-text">Frontend Developer</p>
@@ -181,7 +264,28 @@
         </div>
         </li>
         <li class="comand-item">
-            <img src="./images/comand3.jpg" alt="наша команда" width="270" height="260">
+            <picture>
+                <source
+                srcset="
+                ./images/comand_3.jpg 1x,
+                ./images/comand_3_2x.jpg 2x"
+                media="(min-width: 1200px)"
+                >
+                <source
+                srcset="
+                ./images/comand_3_tab.jpg 1x,
+                ./images/comand_3_2x_tab.jpg 2x"
+                media="(min-width: 768px)"
+                >
+                <source
+                srcset="
+                ./images/comand_3_mob.jpg 1x,
+                ./images/comand_3_2x_mob.jpg 2x"
+                media="(min-width: 320px)"
+                >
+                <img src="./images/comand_3_mob.jpg" 
+            alt="наша команда" width="450">
+        </picture>
             <div class="comand-text">
             <h3 class="comand-list-title">Николай Тарасов</h3>
             <p lang="en" class="comand-list-text">Marketing</p>
@@ -214,7 +318,28 @@
         </div>
         </li>
         <li class="comand-item">
-            <img src="./images/comand4.jpg" alt="наша команда" width="270" height="260">
+            <picture>
+                <source
+                srcset="
+                ./images/comand_4.jpg 1x,
+                ./images/comand_4_2x.jpg 2x"
+                media="(min-width: 1200px)"
+                >
+                <source
+                srcset="
+                ./images/comand_4_tab.jpg 1x,
+                ./images/comand_4_2x_tab.jpg 2x"
+                media="(min-width: 768px)"
+                >
+                <source
+                srcset="
+                ./images/comand_4_mob.jpg 1x,
+                ./images/comand_4_2x_mob.jpg 2x"
+                media="(min-width: 320px)"
+                >
+                <img src="./images/comand_4_mob.jpg" 
+            alt="наша команда" width="450">
+        </picture>
             <div class="comand-text">
             <h3 class="comand-list-title">Михаил Ермаков</h3>
             <p lang="en" class="comand-list-text">UI Designer</p>
@@ -454,6 +579,7 @@
         </form>
     </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 </html>
