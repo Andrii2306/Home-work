@@ -220,7 +220,8 @@
 .mob-menu-connect {
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 302px;
+  /*margin-top: 302px;*/
+  align-content: flex-end;
 }
 .connect-item {
   margin-bottom: 32px;
